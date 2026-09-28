@@ -162,6 +162,11 @@
     .quest-pulse-glow { animation: none; }
     .quest-trail-flow { animation: none; }
   }
+  /* The prebuilt Tailwind stylesheet omits these utilities, which the
+     per-Quest Word download button uses after a Quest is completed. */
+  .bg-purple-700 { background-color: #7e22ce; }
+  .hover\:bg-purple-800:hover { background-color: #6b21a8; }
+  .bg-purple-700:focus-visible { outline: 3px solid #a855f7; outline-offset: 2px; }
 </style>
 </head>
 <body>
